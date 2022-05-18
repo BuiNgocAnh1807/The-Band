@@ -1,0 +1,89 @@
+@media (min-width:1600px){
+    .contact-form{
+        padding-left: 150px;
+    }
+}
+
+@media (min-width:740px) and (max-width:1600px){
+    .search-icon{
+        display: block;
+    }
+    .contact-form{
+        padding-left: 134px;
+    }
+    .social-list a{
+        margin: 0 8px;
+    }
+    #slider .text-content{
+        bottom: 10px;
+    }
+    .contact-info {
+        line-height: 1.9;
+    }
+}
+@media(max-width:739px){
+    .menu-icon{
+        display: block;
+    }
+    #nav{
+        display: block;
+    }
+    #nav>li{
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff !important;
+        padding: 0px 41px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .member-item{
+        width: 100%;
+        padding-top: 40px;
+    }
+    .col-harf{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .col-third{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    #slider .text-one {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    #slider .text-content{
+        bottom: 3px;
+    }
+    .place-buy-btn{
+        width: 100%;
+    }
+    .sendto{
+        width: 100%;
+    }
+    .contact-info {
+        line-height: 1.9;
+        margin-bottom: 25px;
+       
+    }
+    .contact-info a{
+        opacity: 0.6;
+    }
+    .contact-info a:hover{
+        opacity: 1;
+    }
+}
+
